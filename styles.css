@@ -1,0 +1,91 @@
+body {
+    background-image: radial-gradient(circle, #0f162b, #080c14);
+}
+
+.badge.green-bg {
+    background-color: #10142c;
+    color: #94a3b8;
+    border: 1px solid #1f283c;
+    text-decoration: none;
+}
+
+.badge.green-bg:hover {
+    background-color: #10142c;
+    color: #94a3b8;
+    border: 1px solid #465568;
+    text-decoration: none;
+}
+
+
+h1.fw-bold {
+    background-image: linear-gradient(to bottom, #e9d1ee, #0fc966); /* -parou de pegar? */ 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p.fw-normal {
+    color: #96a2af;
+    max-width: 850px; /* Defina o valor que melhor se ajustar ao seu design */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.nav-link:active,
+.nav-link:focus{
+    color: #96a2af;
+}
+
+.navbar.navbar-expand-lg {
+    text-align: center;
+}
+
+.nav-link {
+    color: #96a2af;
+}
+
+.nav-item .nav-link.active {
+    color: #96a2af;
+}
+.nav-link:hover {
+    color: #f3f8fb;
+}
+
+div.container-fluid.conteudos.text-center {
+    border-top: 1px solid #465568;
+}
+
+.badge.green-bg.conteudos.rounded-pill {
+
+    color: #95a2b8;
+    border: 1px solid #465568;
+}
+
+div.videos {
+    color: #96a2af;
+    background-color: #0f162b;
+    border: 1px solid #465568;
+    border-radius: 10px; 
+    max-width: 300px;
+
+}
+
+div.row {
+    padding: 100px;
+}
+
+.row.d-flex {
+    display: flex; /* Define o display para flex */
+    flex-wrap: nowrap; /* Impede a quebra de linha dos itens */
+  }
+  
+  .videos {
+    flex: 1; /* Distribui o espaço igualmente entre os itens */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    border: 1px solid #ccc; /* Adiciona uma borda para melhor visualização */
+    padding: 10px; /* Espaçamento interno para melhor aparência */
+  }
+
+
+/* TIRAR BUG CLICK PRETO DA NAVBAR */
+/* TIRAR BUG CLICK PRETO DA NAVBAR */
+/* TIRAR BUG CLICK PRETO DA NAVBAR */
